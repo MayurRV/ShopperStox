@@ -1,0 +1,142 @@
+.cartitems {
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.cartitems-format-main {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 1fr 1fr 1fr 0.5fr;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.cartitems-format {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 1fr 1fr 1fr 0.5fr;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.carticon-product-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cartitems-quantity {
+  width: 50px;
+  height: 35px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+  cursor:pointer;
+}
+.cartitems-quantity:hover{
+    scale: 1.1;
+}
+
+.carticon-remove-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.carticon-remove-icon:hover {
+  transform: scale(1.2);
+}
+
+.cartitems-down {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cartitems-total {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.cartitems-total h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+
+  /* Gradient text effect */
+  background: linear-gradient(90deg, #ffa600, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.cartitems-total-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.cartitems-total button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: linear-gradient(90deg, #ffa600, #ee0979);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.cartitems-total button:hover {
+  opacity: 0.85;
+}
+
+.cartitems-promocode {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  border: 1px dashed #aaa;
+  border-radius: 10px;
+  color: #555;
+}
+
+.cartitems-promobox {
+  display: flex;
+  gap: 10px;
+}
+
+.cartitems-promobox input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.cartitems-promobox button {
+  padding: 10px 16px;
+  background-color: #ffa600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cartitems-promobox button:hover {
+  background-color: #e55a00;
+}

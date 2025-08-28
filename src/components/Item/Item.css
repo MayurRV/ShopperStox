@@ -1,0 +1,38 @@
+.item{
+    width: 350px;
+    height: auto;
+    
+}
+
+.item p{
+    margin: 6px 0px;
+}
+
+.prices{
+    display: flex;
+    gap: 20px;
+}
+
+.new_prices{
+    color: #325da3;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.old_prices{
+    color: #5c636f;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item:hover{
+    
+    transform: scale(1.05) /* translateX(5px) rotate(5deg)*/  /*rotateY(360deg) rotateZ(360deg)*/ ;
+    transition: 1s;
+    background-color: bisque;
+    border: 2px double dodgerblue;
+    margin: 0px 15px;
+    border-radius: 10px;
+    /* border: 5px double rgba(13, 240, 89, 0.868); */
+     
+}
